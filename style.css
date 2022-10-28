@@ -1,0 +1,448 @@
+#bod{
+    background-image: linear-gradient(to right, green, rgb(69, 67, 102));
+}
+
+#hedr{
+    border: 3px;
+    border-style: groove;
+    text-align: center;
+    font-style: oblique;
+    font-size: 24px;
+    color: rgb(37, 12, 59);
+    border-color: gold;
+    background-image: linear-gradient(to top, rgb(125, 116, 177), rgb(194, 194, 147));
+    border-radius: 10px;
+    
+
+}
+#headerlogo{
+    width: 85px;
+    height: 85px;
+    position: relative;
+    right: -00px;    
+    top: -10px;
+}
+#cupa{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 90px;    
+    top: 45px;
+    cursor: grab;  
+
+}
+
+#dv1{
+    border: 2px;
+    border-color: gold;
+    border-style: groove;
+    border-radius: 10px;
+    margin: 5px;
+    height: 70px;
+    background-image: linear-gradient( rgb(125, 116, 177), rgb(194, 194, 147));
+}
+
+#btnxt {
+    text-align: center;
+    float: right;
+    font-style: oblique;
+    font-size: 24px;
+    color: gold;
+    padding: 10px;
+    cursor: pointer;
+    margin: 5px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-image: linear-gradient(rgb(125, 116, 177), rgb(194, 194, 147));
+}
+#btnhome {
+    text-align: center;
+    float: right;
+    font-style: oblique;
+    font-size: 24px;
+    color: gold;
+    padding: 10px;
+    cursor: pointer;
+    width: 150px;
+    margin: 5px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-image: linear-gradient(rgb(125, 116, 177), rgb(194, 194, 147));
+}
+#det {
+    color: gold;
+    border: 2px;
+    border-color: gold;
+    border-style: solid;
+    border-radius: 10px;
+    position: relative;
+    left: 50px;
+    padding: 15px;
+    margin: 15px;
+    font-weight: bolder;
+    width: 300px;
+    cursor: pointer;
+}
+#dv2 {
+    height: 500px;
+    width: 680px;
+    position: relative;
+    left: 950px;
+    top: 80px;
+    border: 5px;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: gold;
+}
+#gol{
+border: 3px;
+border-color: gold;
+border-style: groove;
+position: relative;
+top: 5%;
+left: 05%;
+}
+
+#p1{
+    color: gold;
+    position: relative;
+    text-align: center;
+    font-style: normal;
+    font-weight: bolder;
+    font-family: 'Noto Naskh Arabic UI', serif;
+    top: -10px;
+    font-size: 32px;
+}
+#dv3{
+border: 2px;
+border-color: gold;
+border-style: ridge;
+padding: 15px;
+margin: 50px;
+position: static;
+}
+#mch {
+    color: gold;
+    text-align: center;
+}
+#dv4{
+    border-color: gold;
+    border-style: ridge;
+    border-radius: 2%;
+    background-image: url(Assets\stadium.jpg);
+    background: local;
+    background-size: cover;
+
+}
+#p2{
+    color: gold;
+    font-size: 22px;
+    text-align: center;
+    text-transform: capitalize;
+    text-rendering: geometricPrecision;
+}
+#lnup1{
+position: relative;
+right: 05%;
+cursor: pointer;
+}
+#lnup2{
+    position: relative;
+    left: 05%;
+    cursor: pointer;
+    }
+    #btnpl{
+    border-top-left-radius: 33px;
+    border-top-right-radius: 11px;
+    border-bottom-left-radius: 11px;
+    border-bottom-right-radius: 55px;
+    border-color: rgb(112, 112, 228);
+    color: black;
+    border: 10px;
+    /*background-image: linear-gradient( gold, rgb(158, 108, 14));*/
+    background-image: linear-gradient( rgb(125, 116, 177), rgb(194, 194, 147));
+
+    border-style: groove;
+    font-size: 35px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    height: 150px;
+    width: 250px;
+    position: relative;
+    bottom: 435px;
+    left: 655px;
+    cursor: pointer;
+    animation-duration: 2s;
+    transition: height 1s;
+    animation-delay: 3s;
+
+}
+#btnpl:hover{
+
+    border-top-left-radius: 11px;
+    border-top-right-radius: 33px;
+    border-bottom-left-radius: 33px;
+    border-bottom-right-radius: 11px;
+    color: black;
+    left: 655px;
+    height: 500px;
+   animation-direction: reverse;
+
+
+ 
+}
+#btnplm{
+    border-top-right-radius: 55px;
+    border-bottom-right-radius: 55px;
+    border-color: rgb(112, 112, 228);
+    color: black;
+    border: 10px;
+    /*background-image: linear-gradient( gold, rgb(158, 108, 14));*/
+    background-image: linear-gradient( rgb(125, 116, 177), rgb(194, 194, 147));
+
+    border-style: groove;
+    font-size: 35px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    width: 350px;
+    height: 150px;
+    bottom: 600px;
+    left: 100px;
+    cursor: pointer;
+    animation-duration: 2s;
+    transition:width 1s ;
+    position: absolute;
+
+}
+#btnplm:hover{
+    
+    border-top-right-radius: 55px;
+    border-bottom-right-radius: 55px;
+    transform: rotate(360deg);
+    animation-delay: 1s;
+    color: black;
+    width: 500px;
+    right: 655px;
+    
+}
+
+#playersdv{
+    border: 5px;
+    border-color: gold;
+    border-style: groove;
+    margin: 50px;
+    border-radius: 05%;
+    width: 1500px;
+    position: static;
+}
+#s3doon{
+    width: 250px;
+    height: 250px;
+    border-radius: 15%;
+    padding: 10px;
+    position: relative;
+    left: 10px;
+}
+#fajer{
+    width: 250px;
+    height: 250px;
+    border-radius: 15%;
+    padding: 10px;
+    position: relative;
+    left: 55px;
+}#majd{
+    width: 250px;
+    height: 250px;
+    border-radius: 15%;
+    padding: 10px;
+    position: relative;
+    left: 150px;
+}
+@keyframes header{
+    from{
+        border: 3px;
+        border-style: groove;
+        text-align: center;
+        font-style: oblique;
+        font-size: 24px;
+        color: blueviolet;
+        border-color: gold;
+        background-color: green;
+        border-radius: 10px;
+    }
+    to{
+        border: 3px;
+    border-style: groove;
+    text-align: center;
+    font-style: oblique;
+    font-size: 24px;
+    color: white;
+    border-color: gold;
+    background-color: black;
+    border-radius: 10px;
+    }
+}
+#mj7m{
+    width: 250px;
+    height: 250px;
+    border-radius: 15%;
+    padding: 10px;
+    position: relative;
+    left: 150px;
+}
+#lam3{
+    width: 250px;
+    height: 250px;
+    border-radius: 15%;
+    padding: 10px;
+    position: relative;
+    left: 55px;
+}
+#feno{
+    width: 250px;
+    height: 250px;
+    border-radius: 15%;
+    padding: 10px;
+    position: relative;
+    left: 10px;
+}
+#ididi{
+    width: 250px;
+    height: 250px;
+    border-radius: 15%;
+    padding: 10px;
+    position: relative;
+    left: 10px;
+}
+#bonbon{
+    width: 250px;
+    height: 250px;
+    border-radius: 15%;
+    padding: 10px;
+    position: relative;
+    left: 10px;
+}
+#abokhlal{
+    width: 250px;
+    height: 250px;
+    border-radius: 15%;
+    padding: 10px;
+    position: relative;
+    left: 22.50px;
+}
+#monkeytrunky{
+    width: 250px;
+    height: 250px;
+    border-radius: 15%;
+    padding: 10px;
+    position: relative;
+    left: 10px;
+}
+#_7shbroot{
+    width: 250px;
+    height: 250px;
+    border-radius: 15%;
+    padding: 10px;
+    position: relative;
+    left: 560px;
+}
+#pp{
+    color: gold;
+    position: absolute;
+    bottom: 50px;
+    right: 210px;
+    padding: 10px;
+    font-size: 32px;
+    width: 350px;
+}
+#cupwin{
+    background-image: url("Assets\dance2.png");
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  border-radius: 15px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: rgb(111, 0, 255);
+  font-size: 35px;
+  padding: 8px 12px;
+  position: absolute;
+  width: 100%;
+  text-align:center;
+  bottom: 00px;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
